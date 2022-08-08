@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3dcfcf62-8778-484e-a26d-b9f0c46479d1": {
+      "ProjectGuid": "3dcfcf62-8778-484e-a26d-b9f0c46479d1",
+      "DisplayName": "RewardPoints",
+      "ColorIndex": 0
+    },
+    "0cdd3b8f-ffb0-42ab-9ce7-0f33bd0b9841": {
+      "ProjectGuid": "0cdd3b8f-ffb0-42ab-9ce7-0f33bd0b9841",
+      "DisplayName": "RewardPoints.Business.Core",
+      "ColorIndex": 1
+    },
+    "f8074f6e-4fe2-4fd9-9628-afc249c96727": {
+      "ProjectGuid": "f8074f6e-4fe2-4fd9-9628-afc249c96727",
+      "DisplayName": "RewardPoints.Data",
+      "ColorIndex": 2
+    },
+    "aea5534f-7414-40e5-89a1-f293a9c954ea": {
+      "ProjectGuid": "aea5534f-7414-40e5-89a1-f293a9c954ea",
+      "DisplayName": "RewardPoints.Shared",
+      "ColorIndex": 3
+    },
+    "e8f1c3ae-0c07-45f5-a4b9-3884cef0150e": {
+      "ProjectGuid": "e8f1c3ae-0c07-45f5-a4b9-3884cef0150e",
+      "DisplayName": "RewardPoints.Tests",
+      "ColorIndex": 4
+    },
+    "219b4d48-6ed0-4435-93aa-7b9bc2801676": {
+      "ProjectGuid": "219b4d48-6ed0-4435-93aa-7b9bc2801676",
+      "DisplayName": "RewardPoints.Test",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "TBbdHejQxJuDL+hdIOLf9wT14WcYQsTdVP0Pvh4EP48=",
+  "Source": "RewardPoints",
+  "BasePath": "_content/RewardPoints",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RewardPoints\\wwwroot",
+      "Source": "RewardPoints",
+      "ContentRoot": "D:\\RewardPoints\\RewardPoints\\RewardPoints\\wwwroot\\",
+      "BasePath": "_content/RewardPoints",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\RewardPoints\\RewardPoints\\RewardPoints\\wwwroot\\customers.csv",
+      "SourceId": "RewardPoints",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RewardPoints\\RewardPoints\\RewardPoints\\wwwroot\\",
+      "BasePath": "_content/RewardPoints",
+      "RelativePath": "customers.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\customers.csv"
+    },
+    {
+      "Identity": "D:\\RewardPoints\\RewardPoints\\RewardPoints\\wwwroot\\logs-20220808.txt",
+      "SourceId": "RewardPoints",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RewardPoints\\RewardPoints\\RewardPoints\\wwwroot\\",
+      "BasePath": "_content/RewardPoints",
+      "RelativePath": "logs-20220808.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs-20220808.txt"
+    },
+    {
+      "Identity": "D:\\RewardPoints\\RewardPoints\\RewardPoints\\wwwroot\\transactions.csv",
+      "SourceId": "RewardPoints",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RewardPoints\\RewardPoints\\RewardPoints\\wwwroot\\",
+      "BasePath": "_content/RewardPoints",
+      "RelativePath": "transactions.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\transactions.csv"
+    }
+  ]
+}

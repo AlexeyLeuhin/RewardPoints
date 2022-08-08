@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VsqnVsyUZ7GUF3+YF0OWmiJlmf65nugPn39T5brSD7e4RVFTi9wCvlHOzSCzAIu3tLBUhZzQ+5SYO2OHCtbyOA==",
+  "success": true,
+  "projectFilePath": "D:\\RewardPoints\\RewardPoints\\RewardPoints.Shared\\RewardPoints.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,72 @@
+2022-08-08T10:41:13.5849307+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-08T10:41:13.6044504+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-08T10:41:13.6080117+03:00  [INF] Content root path: "D:\RewardPoints\RewardPoints\RewardPoints\" (b5d60022)
+2022-08-08T10:41:21.1915559+03:00 80000025-0006-fe00-b63f-84710c7967bb [ERR] 8/8/2022 7:41:20 AM
+Not found storage file for type RewardPoints.Data.Models.Customer
+   at RewardPoints.Data.CsvStorageContext.GetEntitiesFromCsvFile[T](String filePath) in D:\RewardPoints\RewardPoints\RewardPoints.Data\CsvStorageContext.cs:line 25
+   at RewardPoints.Data.CsvStorageContext.GetCustomers() in D:\RewardPoints\RewardPoints\RewardPoints.Data\CsvStorageContext.cs:line 13
+   at RewardPoints.Business.Core.RewardPoints.Queries.GetRewardPointsReport.Handler.Handle(Query request, CancellationToken cancellationToken) in D:\RewardPoints\RewardPoints\Core\RewardPoints\Queries\GetRewardPointsReport.cs:line 42
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at RewardPoints.Controllers.RewardPointsController.GetRewardPointsReport(Query query) in D:\RewardPoints\RewardPoints\RewardPoints\Controllers\RewardPointsController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at RewardPoints.ErrorWrappingMiddleware.Invoke(HttpContext context) in D:\RewardPoints\RewardPoints\RewardPoints\ErrorWrappingMiddleware.cs:line 21 (fdc0d52b)
+2022-08-08T10:47:08.6489390+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-08T10:47:08.6707110+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-08T10:47:08.6730707+03:00  [INF] Content root path: "D:\RewardPoints\RewardPoints\RewardPoints\" (b5d60022)
+2022-08-08T10:47:15.4572877+03:00 80000036-0004-ff00-b63f-84710c7967bb [ERR] 8/8/2022 7:47:15 AM
+Not found storage file for type RewardPoints.Data.Models.Customer
+   at RewardPoints.Data.CsvStorageContext.GetEntitiesFromCsvFile[T](String filePath) in D:\RewardPoints\RewardPoints\RewardPoints.Data\CsvStorageContext.cs:line 25
+   at RewardPoints.Data.CsvStorageContext.GetCustomers() in D:\RewardPoints\RewardPoints\RewardPoints.Data\CsvStorageContext.cs:line 13
+   at RewardPoints.Business.Core.RewardPoints.Queries.GetRewardPointsReport.Handler.Handle(Query request, CancellationToken cancellationToken) in D:\RewardPoints\RewardPoints\Core\RewardPoints\Queries\GetRewardPointsReport.cs:line 42
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at RewardPoints.Controllers.RewardPointsController.GetRewardPointsReport(Query query) in D:\RewardPoints\RewardPoints\RewardPoints\Controllers\RewardPointsController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at RewardPoints.ErrorWrappingMiddleware.Invoke(HttpContext context) in D:\RewardPoints\RewardPoints\RewardPoints\ErrorWrappingMiddleware.cs:line 22 (36198c5d)
+2022-08-08T14:10:01.7194437+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-08T14:10:01.7364000+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-08T14:10:01.7399322+03:00  [INF] Content root path: "D:\RewardPoints\RewardPoints\RewardPoints\" (b5d60022)
+2022-08-08T14:10:09.4954723+03:00 80000014-0002-fd00-b63f-84710c7967bb [INF] 8/8/2022 11:10:09 AM Reward points report was generated! (607cfe76)
+2022-08-08T14:11:51.0687358+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-08T14:11:51.0823080+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-08T14:11:51.0841432+03:00  [INF] Content root path: "D:\RewardPoints\RewardPoints\RewardPoints\" (b5d60022)
+2022-08-08T14:11:57.2795987+03:00 80000026-0005-fd00-b63f-84710c7967bb [INF] 8/8/2022 11:11:57 AM Reward points report was generated! (2be93362)
+2022-08-08T14:32:24.7349423+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-08T14:32:24.7490065+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-08T14:32:24.7513329+03:00  [INF] Content root path: "D:\RewardPoints\RewardPoints\RewardPoints\" (b5d60022)
+2022-08-08T14:32:28.9170890+03:00 80000003-0004-fd00-b63f-84710c7967bb [INF] 8/8/2022 11:32:28 AM Reward points report was generated! (aa917063)
+2022-08-08T14:33:27.1484379+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-08T14:33:27.1667438+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-08T14:33:27.1683554+03:00  [INF] Content root path: "D:\RewardPoints\RewardPoints\RewardPoints\" (b5d60022)
+2022-08-08T14:33:31.1513261+03:00 80000012-0001-ff00-b63f-84710c7967bb [INF] 8/8/2022 11:33:31 AM Reward points report was generated! (541276f4)

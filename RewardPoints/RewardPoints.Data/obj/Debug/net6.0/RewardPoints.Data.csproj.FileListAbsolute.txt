@@ -1,0 +1,15 @@
+D:\RewardPoints\RewardPoints\RewardPoints.Data\bin\Debug\net6.0\RewardPoints.Data.deps.json
+D:\RewardPoints\RewardPoints\RewardPoints.Data\bin\Debug\net6.0\RewardPoints.Data.dll
+D:\RewardPoints\RewardPoints\RewardPoints.Data\bin\Debug\net6.0\ref\RewardPoints.Data.dll
+D:\RewardPoints\RewardPoints\RewardPoints.Data\bin\Debug\net6.0\RewardPoints.Data.pdb
+D:\RewardPoints\RewardPoints\RewardPoints.Data\bin\Debug\net6.0\RewardPoints.Shared.dll
+D:\RewardPoints\RewardPoints\RewardPoints.Data\bin\Debug\net6.0\RewardPoints.Shared.pdb
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.csproj.AssemblyReference.cache
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.AssemblyInfoInputs.cache
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.AssemblyInfo.cs
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.csproj.CoreCompileInputs.cache
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.csproj.CopyComplete
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.dll
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\ref\RewardPoints.Data.dll
+D:\RewardPoints\RewardPoints\RewardPoints.Data\obj\Debug\net6.0\RewardPoints.Data.pdb
